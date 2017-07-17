@@ -4,23 +4,22 @@
 
     <groupId>ibs.test</groupId>
     <artifactId>testpr</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.3-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/ZEREX222/test.git</connection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.2</version>
                 <configuration>
-                    <tagBase>scm:git:https://github.com/ZEREX222/test.git</tagBase>
-                    <branchBase>scm:git:https://github.com/ZEREX222/test.git</branchBase>
                     <preparationGoals>clean install</preparationGoals>
-                    <goals>deploy</goals>
+                    <goals>package</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
