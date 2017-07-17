@@ -8,7 +8,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/ZEREX222/test.git</connection>
-        <tag>HEAD</tag>
+        <tag>releases/0.4.0</tag>
     </scm>
 
     <build>
