@@ -4,11 +4,11 @@
 
     <groupId>ibs.test</groupId>
     <artifactId>testpr</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
 
     <scm>
         <connection>scm:git:https://github.com/ZEREX222/test.git</connection>
-        <tag>HEAD</tag>
+        <tag>testpr-0.4</tag>
     </scm>
 
     <build>
